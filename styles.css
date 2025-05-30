@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Poppins:wght@300;600&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #0f0f0f;
+  color: #f1f1f1;
+  overflow-x: hidden;
+}
+
+header {
+  background: linear-gradient(135deg, #ff0080, #7928ca);
+  text-align: center;
+  padding: 3em 1em;
+  color: white;
+  box-shadow: 0 0 20px #ff00cc88;
+}
+
+header h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 3em;
+  margin-bottom: 0.2em;
+  letter-spacing: 1px;
+}
+
+header p {
+  font-size: 1.2em;
+  font-weight: 300;
+  opacity: 0.9;
+}
+
+section {
+  padding: 2.5em;
+  background: #1a1a1a;
+  margin: 1.5em auto;
+  max-width: 900px;
+  border-radius: 12px;
+  box-shadow: 0 0 25px rgba(255, 0, 255, 0.1);
+  border: 1px solid #333;
+  transition: transform 0.3s ease;
+}
+
+section:hover {
+  transform: scale(1.01);
+}
+
+h2 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.5em;
+  color: #39ff14;
+  border-bottom: 2px dashed #ff00ff80;
+  padding-bottom: 0.3em;
+  margin-bottom: 1.2em;
+  text-shadow: 0 0 10px #39ff1480;
+}
+
+ul li {
+  margin-bottom: 0.5em;
+  line-height: 1.6;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6em;
+}
+
+.skill-tags span {
+  background: linear-gradient(135deg, #00f0ff, #ff00ff);
+  color: black;
+  padding: 0.5em 1em;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 0.9em;
+  text-shadow: 0 1px 1px #fff;
+  transition: transform 0.2s;
+}
+
+.skill-tags span:hover {
+  transform: scale(1.1) rotate(-2deg);
+  box-shadow: 0 0 10px #ff00ff99;
+}
+
+footer {
+  text-align: center;
+  padding: 2em;
+  background: #222;
+  color: #bbb;
+  font-size: 0.9em;
+  border-top: 1px solid #444;
+}
